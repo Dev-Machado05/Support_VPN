@@ -136,8 +136,42 @@ td span{
 .Benefits{
     padding: 96px 184px;
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 131px;
 }
 
-.Benefits div img {
-    display: flex;
+.Illustration2{
+    width: 508px;
+    height: 414px;
 }
+
+.Benefits aside{
+    max-width: 430px;
+    padding-top: 55px;
+}
+
+.Benefits aside p{
+    margin: 20px 0 20px 0;
+    line-height: 30px;
+}
+
+.Benefits aside h1{
+    font-size: 35px;
+    font-weight: 500;
+    max-width: 383px;
+    line-height: 50px;
+}
+
+.asideTexts{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.asideTexts p{
+    padding-left: 10px;
+    margin: 0px !important; 
+    font-size: 15px;
+}
+
+/*---------------------------------------*/
