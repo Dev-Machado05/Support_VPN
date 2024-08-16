@@ -200,6 +200,7 @@ td span {
     font-size: 16px;
     line-height: 30px;
     max-width: 550px;
+    color: rgba(79, 86, 101, 1);
 }
 
 .plans {
@@ -291,4 +292,17 @@ td span {
 .premiumButton {
     background-color: rgba(245, 56, 56, 1) !important;
     color: rgba(255, 255, 255, 1) !important;
+}
+
+/*------------------------------------------*/
+
+.GNetworkText {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    margin: 150px 0 20px 0; 
+}
+
+.GNetworkImg {
+    margin-top: 150px;
 }
