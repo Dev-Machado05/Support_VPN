@@ -304,5 +304,39 @@ td span {
 }
 
 .GNetworkImg {
-    margin-top: 150px;
+    margin: 150px 0 50px 0;
+}
+
+.GNetworkImg img {
+    width: 1135.64px;
+    height: auto;
+}
+
+.GlobalNw {
+    width: 1060px !important;
+}
+
+/*----------------------------------------------------------------*/
+
+.feedbackZone h1{
+    align-items: center;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.commentDiv {
+    display: flex;
+}
+
+.ACTfeedback {
+    border: solid 2px rgba(245, 56, 56, 1);
+}
+
+.ACTfeedback div {
+    display: flex;
+}
+
+.CTfeedback {
+
 }
