@@ -26,7 +26,15 @@ header a {
 }
 
 .Logo {
+    display: flex;
+    flex-direction: row !important;
     gap: 5px;
+    height: 36.23px;
+}
+
+.Logo img {
+    height: 36.23px;
+    width: 35px;
 }
 
 header nav {
@@ -421,9 +429,97 @@ td span {
     justify-content: space-between;
     margin-top: 60px;
     margin-left: 18%;
+    margin-bottom: 65px;
 }
 
 .carrousselFooter aside {
     display: flex;
     gap: 20px;
+}
+
+/*----------------------------------------------------------------*/
+
+.subscribeDiv {
+    width: 1140px;
+    height: 233px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribeDiv h1 {
+    font-weight: 500;
+    font-size: 35;
+}
+
+.subscribeDiv span {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(79, 86, 101, 1);
+}
+
+.subscribeDiv button {
+    background-color: rgba(245, 56, 56, 1);
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    box-shadow: 1px 15px 35px rgba(245, 56, 56, 0.35);
+}
+
+/*----------------------------------------------------------------*/
+
+footer {
+    height: 563.12px;
+    background-color: rgba(248, 248, 248, 1);
+    display: flex;
+    justify-content: space-around;
+    padding: 184px;
+}
+
+footer aside {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutSVP p{
+    max-width: 340px;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1);
+}
+
+.AboutSVP span{
+    font-weight: 700;
+    color: rgba(79, 86, 101, 1);
+}
+
+.AboutSVP {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.socialMedias {
+    height: 33px;
+    flex-direction: row !important;
+}
+
+.socialMedias img {
+    height: 60.5px;
+}
+
+.active {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer a {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(79, 86, 101, 1);
 }
