@@ -415,3 +415,15 @@ td span {
 
 /*----------------------------------------------------------------*/
 
+.carrousselFooter {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 18%;
+}
+
+.carrousselFooter aside {
+    display: flex;
+    gap: 20px;
+}
